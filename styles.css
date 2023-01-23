@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+div,
+button {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div p:first-of-type {
+    font-style: italic;
+}
+
+button {
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: blue;
+}
