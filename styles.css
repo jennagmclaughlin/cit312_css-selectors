@@ -31,3 +31,24 @@ button {
 button:hover {
     background-color: blue;
 }
+
+button:active,
+button:focus {
+    border-radius: 0;
+    width: 200px;
+    height: 150px;
+}
+
+ul li:nth-of-type(3),
+ul li:nth-of-type(4) {
+    color: red;
+}
+
+ol li:nth-child(even) {
+    font-size: 24px;
+}
+
+div:nth-of-type(2) p:nth-of-type(2),
+div:nth-of-type(2) p:last-of-type {
+    color: white;
+}
